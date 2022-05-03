@@ -1,0 +1,86 @@
+#PanelUI-button {
+    display: none !important;
+}
+
+.tab-close-button{
+    display:none !important;
+}
+
+.tab-background{
+    border-radius: 0px !important;
+    margin: -2px !important;
+}
+
+.urlbarView-row-inner,.search-one-offs {
+	padding-inline: var(--urlbarView-item-inline-padding) !important;
+	padding-block: 0px !important;
+}
+
+#nav-bar .toolbarbutton-1{
+    margin-block-start: -15.5px !important;
+
+}
+#nav-bar{
+    height: 10px !important;
+    text-align: center !important;
+}
+
+.tabbrowser-tab{ 
+    max-width: none !important;
+}
+
+#tabbrowser-arrowscrollbox{
+    --tab-min-height: 18px !important;
+    max-height: var(--tab-min-height) !important;
+}
+
+.tab-content::before{
+    display: -moz-box !important;
+    content: "" !important;
+    -moz-box-flex: 1 !important;
+}
+
+#scrollbutton-up,#scrollbutton-down,#alltabs-button {
+    display: none !important;
+}
+
+#titlebar{
+    -moz-box-ordinal-group: 2 !important;
+}
+#TabsToolbar .titlebar-spacer{
+    display: none !important;
+}
+#PersonalToolbar{
+    -moz-box-ordinal-group: 2 !important;
+}
+
+#tabbrowser-tabs, #tabbrowser-tabs > .tabbrowser-arrowscrollbox, #tabbrowser-arrowscrollbox{
+    min-height: 0 !important;
+}
+
+#tabbrowser-tabs .tabbrowser-tab[first-visible-tab="true"][last-visible-tab="true"]{
+    visibility: collapse !important;
+}
+
+#TabsToolbar .titlebar-buttonbox-container {
+    position: absolute !important;
+    top: 0px !important;
+    right: 0 !important; /*(Set to 0 for Windows, set to 1 for Mac)*/
+    display: block !important;
+    margin-top: -5px !important;
+}
+
+
+
+/*    Uncomment the lines below for Elementary OS style buttons (Close:Mini,Max)    */
+/*
+#TabsToolbar .titlebar-buttonbox-container {
+    right: 0 !important;
+}
+.titlebar-min { 
+    margin-left: calc(100vw - 90px) !important;
+}
+.titlebar-close {
+    margin-left: calc(12px - 100vw) !important;
+}
+*/
