@@ -7,6 +7,8 @@ It probably has glitches idk
 
 <img src="preview 3.png" width=600px>
 
+(The tab bar hides when there's only one tab)
+
 It also has support for themes downloaded from the Firefox store
 
 
@@ -21,6 +23,8 @@ It also has support for themes downloaded from the Firefox store
 7) In the folder it opened, create a new folder called "chrome"
 8) Drag and drop my "userChrome.css" file that you downloaded, into the "chrome" folder you just created
 9) Restart Firefox :)
+
+The reason ui.prefersReducedMotion is enabled is because the Safari-style tabs won't center correctly without it. idk why and honeslty I'm just too lazy to fix it
 
 Here's how my "customize Firefox" page is set up, I recommend you set it up the same way
 <img src="layout.png">
