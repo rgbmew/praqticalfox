@@ -67,7 +67,7 @@
     top: 0px !important;
     right: 0 !important; /*(Set to 0 for Windows, set to 1 for Mac)*/
     display: block !important;
-    margin-top: -5px !important;
+    margin-top: -5px !important; /*Change this if the vertical offset is wrong for your buttons*/
 }
 
 
