@@ -17,11 +17,11 @@
 }
 
 #nav-bar .toolbarbutton-1{
-    margin-block-start: -15.5px !important;
+    margin-block-start: -2px !important;
 
 }
 #nav-bar{
-    height: 10px !important;
+    height: 22px !important;
     text-align: center !important;
 }
 
@@ -30,7 +30,7 @@
 }
 
 #tabbrowser-arrowscrollbox{
-    --tab-min-height: 18px !important;
+    --tab-min-height: 20px !important;
     max-height: var(--tab-min-height) !important;
 }
 
